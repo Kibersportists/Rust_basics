@@ -8,7 +8,7 @@ fn main() {
         println!("x is: {}", x); // Output -> x is: 3
     }
 
-    let x = x + 1; // Immutable variables can be changed by redefning them
+    let x = x + 1; // Immutable variables can be changed by redefining them
     println!("x is: {}", x); // Output -> x is: 5
 
     const SECONDS_IN_MINUTE: u32 = 60; // const implies that a variable can't be changed or redefined, otherwise there will be an error
